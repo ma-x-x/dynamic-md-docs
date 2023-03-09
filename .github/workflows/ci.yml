@@ -1,9 +1,9 @@
 name: ci
 
 on:
-  # 每当 push 到 main 分支时触发部署
+  # 每当 push 到 master 分支时触发部署
   push:
-    branches: [main]
+    branches: [master]
   # 手动触发部署
   workflow_dispatch:
 
@@ -51,4 +51,4 @@ jobs:
           # 部署目录为Vite项目的默认输出目录
           build_dir: ./dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DOCS_GITHUB_TOKEN }}
