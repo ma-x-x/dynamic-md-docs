@@ -1,7 +1,28 @@
-# Vue 3 + Vite
+<h1 align="center">Welcome to dynamic-md-docs 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> 类似于 vuepress 站点,最大的区别是可以在线编辑
 
-## Recommended IDE Setup
+### ✨ [Demo](dddd)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Install
+
+```sh
+yarn install
+```
+
+## Usage
+
+```sh
+yarn run dev
+```
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

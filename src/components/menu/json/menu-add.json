@@ -1,0 +1,90 @@
+{
+  "moduleId": 3001,
+  "title": "帮助文档-菜单-表单-meta",
+  "formId": 300110,
+  "formColCount": 1,
+  "colOrder": [
+    90, 95, 100, 101, 103
+  ],
+  "formColShow": {
+  },
+  "ruleMeta": {
+  },
+  "label-width": "150px",
+  "itemMeta": {
+    "90": {  
+      "columnId": 90,
+      "colName": "menuId",
+      "label": "菜单编码",
+      "controlType": 101,
+      "defValue": "1000",
+      "extend": {
+        "placeholder": "菜单编码，可以是数字、英文、下划线等",
+        "title": "菜单编码，可以是数字、英文、下划线等"
+      },
+      "colCount": 1
+    },
+    "95": {  
+      "columnId": 95,
+      "colName": "kind",
+      "label": "层级",
+      "controlType": 153,
+      "defValue": 1,
+      "extend": {
+        "placeholder": "层级，添加、修改的菜单，作为同级或者子级",
+        "title": "层级，添加、修改的菜单，作为同级或者子级"
+      },
+      "optionList": [
+        {"value": 1, "label": "同级"},
+        {"value": 2, "label": "子级"}
+      ],
+      "colCount": 1
+    },
+    "100": {  
+      "columnId": 100,
+      "colName": "text",
+      "label": "菜单名称",
+      "controlType": 101,
+      "defValue": "",
+      "extend": {
+        "placeholder": "菜单名称",
+        "title": "菜单名称"
+      },
+      "colCount": 1
+    },
+    "101": {  
+      "columnId": 101,
+      "colName": "description",
+      "label": "描述/摘要",
+      "controlType": 100,
+      "defValue": "",
+      "extend": {
+        "placeholder": "描述、摘要、可用于搜索",
+        "title": "描述、摘要、可用于搜索"
+      },
+      "colCount": 1
+    },
+    "103": {  
+      "columnId": 103,
+      "colName": "icon",
+      "label": "图标",
+      "controlType": 107,
+      "defValue": "Document",
+      "extend": {
+        "placeholder": "图标",
+        "title": "图标"
+      },
+      "optionList": [
+        { "value": "FolderOpened", "label": "" },
+        { "value": "Document", "label": "" },
+        { "value": "Plus", "label": "" },
+        { "value": "Star", "label": "" },
+        { "value": "UserFilled", "label": "" },
+        { "value": "Loading", "label": "" },
+        { "value": "Connection", "label": "" },
+        { "value": "Edit", "label": "" }
+      ],
+      "colCount": 1
+    }
+  }
+}
